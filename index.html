@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Reto Uno</title>
+</head>
+<body>
+    <form class="form" id="formulario">
+        <img class="images" src="./assets/img/Sin título-1.png" alt="cloud data">
+        <h1 id="titulo">Laptop Gamer AMD</h1>
+        <input type="number"
+        class="control"
+        id="cantidad"
+        name="cantidad"
+        placeholder="Cantidad"
+        required
+        /> 
+        <select class="control" 
+        name="color" id="color">
+            <option value="0">Color</option>
+            <option value="negro">Negro</option>
+            <option value="gris">Gris</option>
+            <option value="rojo">Rojo</option>
+            <option value="fucsia">Fucsia</option> 
+        </select>
+        <h2 id="precio">Precio: 400000</h2>
+        <button id="enviar" type="submit"> Calcular total </button>
+    </form>
+    <section class="print">
+        <h2 class="pintar" id="print"></h2>
+    </section>
+
+</body>
+<script src="./scripts/main.js"></script>
+</html>

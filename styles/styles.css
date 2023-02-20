@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images{
+    margin: 5%;
+    image-rendering: pixelated;
+    width: 250px;
+    height: 150px;
+    object-position: center;
+}
+.form{
+    margin: 10px auto;
+    width: 400px;
+    height: 480px;
+    padding: 0px;
+    background-color: #7ba238;
+    border: 5px solid #8a8c82;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form > input, h1, h2, select{
+    display: inline-block;
+    width: 80%;
+    margin: 3% 0;
+    font-size: 20px;
+}
+.form > h1{
+    font-size: 24px;
+    color: white;
+}
+.form > h2{
+    font-size: 24px;
+    color: white;
+    text-align: left;
+}
+.form > input{
+    border-radius: 8px;
+    font-size: 16px;
+    color: #8a8c82;
+    border-color: black;
+}
+.form > select{
+    border-radius: 8px;
+    font-size: 16px;
+    color: #8a8c82;
+    border-color: black;
+}
+.form > button{
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    border-radius: 8%;
+    background-color: #e4a112;
+    border: 2px solid #8a8c82;
+}
+
+.pintar{
+    position: absolute;
+    left: 75px;
+    top: 50px;
+}
